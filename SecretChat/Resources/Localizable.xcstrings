@@ -1,0 +1,3046 @@
+{
+  "sourceLanguage" : "pl",
+  "strings" : {
+    "»%@«" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“%@”"
+          }
+        }
+      }
+    },
+    "[%@]" : {
+
+    },
+    "[%lld]" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "[%lld]"
+          }
+        }
+      }
+    },
+    "%@ GB RAM" : {
+
+    },
+    "%@ potrzebuje %@ GB RAM, a ten telefon ma %@ GB. Zalecany telefon: %@." : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ potrzebuje %2$@ GB RAM, a ten telefon ma %3$@ GB. Zalecany telefon: %4$@."
+          }
+        }
+      }
+    },
+    "%@ potrzebuje %lld GB RAM, a ten telefon ma %lld GB. Zalecany telefon: %@." : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ needs %2$lld GB of RAM, but this phone has %3$lld GB. Recommended phone: %4$@."
+          }
+        }
+      }
+    },
+    "%@ s" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ s"
+          }
+        }
+      }
+    },
+    "%@ tok" : {
+
+    },
+    "%@ tok/s" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ tok/s"
+          }
+        }
+      }
+    },
+    "%@ z %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ of %2$@"
+          }
+        }
+      }
+    },
+    "%@." : {
+
+    },
+    "%@K" : {
+
+    },
+    "%lld GB RAM" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld GB RAM"
+          }
+        }
+      }
+    },
+    "%lld tok" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld tok"
+          }
+        }
+      }
+    },
+    "%lld." : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld."
+          }
+        }
+      }
+    },
+    "%lldK" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lldK"
+          }
+        }
+      }
+    },
+    "•" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "•"
+          }
+        }
+      }
+    },
+    "~%@–%@ tok/s" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "~%1$@–%2$@ tok/s"
+          }
+        }
+      }
+    },
+    "~%lld–%lld tok/s" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "~%1$lld–%2$lld tok/s"
+          }
+        }
+      }
+    },
+    "🎤 w polu wiadomości dyktuje tekst. Tryb głosowy (przycisk fali w czacie) sam włącza mikrofon, gdy czat czeka na wiadomość, i wyłącza go, gdy model odpowiada lub czyta. Komendy: „wyślij”, „wyczyść”, „koniec dyktowania”. Rozpoznawanie mowy działa na telefonie, bez internetu." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🎤 in the message field dictates text. Voice mode (the wave button in the chat) turns the microphone on when the chat is waiting for you and off while the model answers or reads. Commands: “send”, “clear”, “stop dictation”. Speech recognition runs on the phone, offline."
+          }
+        }
+      }
+    },
+    "Angielski" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "English"
+          }
+        }
+      }
+    },
+    "Anuluj" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancel"
+          }
+        }
+      }
+    },
+    "Aplikacja działa w pełni offline" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The app works fully offline"
+          }
+        }
+      }
+    },
+    "Automatyczny (język telefonu)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Automatic (phone language)"
+          }
+        }
+      }
+    },
+    "Automatyczny (najlepszy dostępny)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Automatic (best available)"
+          }
+        }
+      }
+    },
+    "Benchmark (~500 + 256 tok)" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Benchmark (~500 + 256 tok)"
+          }
+        }
+      }
+    },
+    "Biblioteka zdjęć" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Photo Library"
+          }
+        }
+      }
+    },
+    "Brak rozmów" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No Conversations"
+          }
+        }
+      }
+    },
+    "Brak w pamięci: %@" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Not in memory: %@"
+          }
+        }
+      }
+    },
+    "Brave Search (klucz API)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brave Search (API key)"
+          }
+        }
+      }
+    },
+    "Ciepło, na „ty”, jak dobry znajomy." : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Warm and casual, like a good friend."
+          }
+        }
+      }
+    },
+    "Cześć! Tak brzmią odpowiedzi czytane na głos. Wzór $a^2 + b^2 = c^2$ też przeczytam." : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hi! This is how answers sound when read aloud. I can read the formula $a^2 + b^2 = c^2$ too."
+          }
+        }
+      }
+    },
+    "Czy na pewno przeszukać internet?" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Search the internet?"
+          }
+        }
+      }
+    },
+    "Czytaj na głos" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Read Aloud"
+          }
+        }
+      }
+    },
+    "Czytaj odpowiedzi automatycznie" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Read Answers Automatically"
+          }
+        }
+      }
+    },
+    "Czytaj odpowiedzi w trybie głosowym" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Read Answers in Voice Mode"
+          }
+        }
+      }
+    },
+    "Czytam odpowiedź — potem znów słucham" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reading the answer — then I'll listen again"
+          }
+        }
+      }
+    },
+    "Czytam strony z wyników (%@)…" : {
+
+    },
+    "Czytam strony z wyników (%lld)…" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reading result pages (%lld)…"
+          }
+        }
+      }
+    },
+    "Czytam…" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reading…"
+          }
+        }
+      }
+    },
+    "Czytanie na głos" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Read Aloud"
+          }
+        }
+      }
+    },
+    "Diagnostyka" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diagnostics"
+          }
+        }
+      }
+    },
+    "Diagnostyka i testy wydajności" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diagnostics & Benchmarks"
+          }
+        }
+      }
+    },
+    "Dla telefonów: %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "For phones: %@"
+          }
+        }
+      }
+    },
+    "Długość kontekstu" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Context Length"
+          }
+        }
+      }
+    },
+    "Dłuższy kontekst zużywa więcej pamięci i spowalnia odpowiedzi w długich rozmowach. Zmiana przeładuje model." : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A longer context uses more memory and slows down answers in long conversations. Changing it reloads the model."
+          }
+        }
+      }
+    },
+    "Do pobrania: %@ · wolne: %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "To download: %1$@ · free: %2$@"
+          }
+        }
+      }
+    },
+    "Dodaj wspomnienie" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add Memory"
+          }
+        }
+      }
+    },
+    "Dodaj zdjęcie" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add Photo"
+          }
+        }
+      }
+    },
+    "Dokładne wyjaśnienia z przykładami i kontekstem." : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thorough explanations with examples and context."
+          }
+        }
+      }
+    },
+    "Domyślnie nic nie opuszcza Twojego telefonu. Gdy włączysz wyszukiwanie:" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "By default nothing leaves your phone. When you turn search on:"
+          }
+        }
+      }
+    },
+    "Domyślny sposób odpowiadania modelu." : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The model's default way of answering."
+          }
+        }
+      }
+    },
+    "Dostępne do limitu" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Available Before Limit"
+          }
+        }
+      }
+    },
+    "Dyktowanie" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dictation"
+          }
+        }
+      }
+    },
+    "Dyktuj" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dictate"
+          }
+        }
+      }
+    },
+    "eksperymentalny" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "experimental"
+          }
+        }
+      }
+    },
+    "Eksperymentalny na tym telefonie" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Experimental on this phone"
+          }
+        }
+      }
+    },
+    "Footprint" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Footprint"
+          }
+        }
+      }
+    },
+    "Formalnie, neutralnie i precyzyjnie, bez emoji." : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Formal, neutral and precise, no emoji."
+          }
+        }
+      }
+    },
+    "Gemma jest znakiem towarowym Google LLC. SecretChat nie jest powiązany z Google ani przez Google sponsorowany." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gemma is a trademark of Google LLC. SecretChat is not affiliated with or sponsored by Google."
+          }
+        }
+      }
+    },
+    "Generowanie" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Generation"
+          }
+        }
+      }
+    },
+    "Głos" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voice"
+          }
+        }
+      }
+    },
+    "Gotowe" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Done"
+          }
+        }
+      }
+    },
+    "Ile tokenów rozmowy model pamięta. Starsze wiadomości są pomijane, gdy się nie mieszczą." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "How many tokens of the conversation the model remembers. Older messages are left out when they don't fit."
+          }
+        }
+      }
+    },
+    "Instrukcja, którą model dostaje na początku każdej rozmowy." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The instruction the model receives at the start of every conversation."
+          }
+        }
+      }
+    },
+    "Internet" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Internet"
+          }
+        }
+      }
+    },
+    "Internet na żądanie" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Internet on request"
+          }
+        }
+      }
+    },
+    "Jak model ma do Ciebie mówić: zwięźle, szczegółowo, przyjaźnie… albo po swojemu." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "How the model talks to you: concise, detailed, friendly… or your own way."
+          }
+        }
+      }
+    },
+    "Jak model ma do Ciebie mówić?" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "How should the model talk to you?"
+          }
+        }
+      }
+    },
+    "Jakość" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quality"
+          }
+        }
+      }
+    },
+    "Jakość %@ z 3" : {
+
+    },
+    "Jakość %lld z 3" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quality %lld of 3"
+          }
+        }
+      }
+    },
+    "Jedno zdanie: czego dotyczy i kiedy się przyda. Na tej podstawie model decyduje, czy sięgnąć po treść." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "One sentence: what it's about and when it helps. The model decides from this whether to load the content."
+          }
+        }
+      }
+    },
+    "Jeśli zdjęcie jest tylko w iCloud, sprawdź połączenie i spróbuj ponownie." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "If the photo is only in iCloud, check your connection and try again."
+          }
+        }
+      }
+    },
+    "Jesteś pomocnym asystentem. Odpowiadaj w języku, w którym pisze użytkownik." : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You are a helpful assistant. Reply in the language the user writes in."
+          }
+        }
+      }
+    },
+    "Język dyktowania" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dictation Language"
+          }
+        }
+      }
+    },
+    "Kiedy się przyda" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "When it's useful"
+          }
+        }
+      }
+    },
+    "Klucz Brave Search API" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brave Search API key"
+          }
+        }
+      }
+    },
+    "kod" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "code"
+          }
+        }
+      }
+    },
+    "Komfortowo działa na: %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Runs comfortably on: %@"
+          }
+        }
+      }
+    },
+    "Kontekst" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Context"
+          }
+        }
+      }
+    },
+    "Kopiuj" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copy"
+          }
+        }
+      }
+    },
+    "Krok po kroku, z analogiami i pytaniem na koniec." : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Step by step, with analogies and a question at the end."
+          }
+        }
+      }
+    },
+    "Krótka, po niej model wczytuje wspomnienie." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Short — the model loads the memory by this name."
+          }
+        }
+      }
+    },
+    "Krótko i na temat: 1–3 zdania, bez wstępów." : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Short and to the point: 1–3 sentences, no preamble."
+          }
+        }
+      }
+    },
+    "Ładowanie %lld%%" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Loading %lld%%"
+          }
+        }
+      }
+    },
+    "Ładowanie modelu do pamięci…" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Loading the model into memory…"
+          }
+        }
+      }
+    },
+    "Licencja modelu" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Model License"
+          }
+        }
+      }
+    },
+    "Licencje i informacje prawne" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Licenses & Legal"
+          }
+        }
+      }
+    },
+    "Log" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Log"
+          }
+        }
+      }
+    },
+    "Maks. długość odpowiedzi" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Max Answer Length"
+          }
+        }
+      }
+    },
+    "Mikrofon wyłączony — model odpowiada" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Microphone off — the model is answering"
+          }
+        }
+      }
+    },
+    "Model" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Model"
+          }
+        }
+      }
+    },
+    "Model chce przeszukać internet" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The model wants to search the internet"
+          }
+        }
+      }
+    },
+    "Model działa w całości na Twoim iPhonie — bez kont, bez chmury, bez śledzenia. Rozmowy nie opuszczają telefonu. Wybierz model i pobierz go jednorazowo." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The model runs entirely on your iPhone — no accounts, no cloud, no tracking. Conversations never leave your phone. Pick a model and download it once."
+          }
+        }
+      }
+    },
+    "Model działa w całości na tym iPhonie. Rozmowa nie opuszcza telefonu." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The model runs entirely on this iPhone. The conversation never leaves your phone."
+          }
+        }
+      }
+    },
+    "Model i biblioteki" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Model & Libraries"
+          }
+        }
+      }
+    },
+    "Model językowy" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Language Model"
+          }
+        }
+      }
+    },
+    "Model może zapamiętywać informacje między rozmowami („Zapamiętaj…”, „Zapomnij…”). Każde wspomnienie ma nazwę, opis i treść; model widzi nazwy i opisy, a treść wczytuje tylko, gdy jest potrzebna. Wszystko zostaje na tym telefonie." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The model can remember things between conversations (“Remember…”, “Forget…”). Each memory has a name, a description and content; the model sees names and descriptions and loads content only when needed. Everything stays on this phone."
+          }
+        }
+      }
+    },
+    "Model może zaproponować wyszukiwanie, gdy nie zna odpowiedzi (np. aktualne wydarzenia, pogoda, ceny)." : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The model may suggest a search when it doesn't know the answer (e.g. current events, weather, prices)."
+          }
+        }
+      }
+    },
+    "Model najpierw rozumuje (widoczne w zwijanym bloku), potem odpowiada. Lepsze wyniki przy trudnych pytaniach, ale wolniej." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The model reasons first (shown in a collapsible block), then answers. Better results on hard questions, but slower."
+          }
+        }
+      }
+    },
+    "Model nie zwrócił odpowiedzi." : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The model returned no answer."
+          }
+        }
+      }
+    },
+    "Model potrzebuje %@ GB RAM, a ten telefon ma %@ GB. Aplikacja może się zamykać albo działać bardzo wolno." : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Model potrzebuje %1$@ GB RAM, a ten telefon ma %2$@ GB. Aplikacja może się zamykać albo działać bardzo wolno."
+          }
+        }
+      }
+    },
+    "Model potrzebuje %lld GB RAM, a ten telefon ma %lld GB. Aplikacja może się zamykać albo działać bardzo wolno." : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The model needs %1$lld GB of RAM, but this phone has %2$lld GB. The app may close unexpectedly or run very slowly."
+          }
+        }
+      }
+    },
+    "Model zapyta o zgodę przed każdym wyszukiwaniem. Gdy wyszukiwarka zablokuje zapytanie, użyjemy Wikipedii. Klucz Brave jest zapisany w pęku kluczy na tym urządzeniu. To Twój klucz — korzystasz z niego na warunkach Brave Search API (plan musi pozwalać na użycie wyników przez AI)." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The model asks before every search. If the search engine blocks the query, Wikipedia is used. The Brave key is stored in this device’s keychain. It is your key — you use it under the Brave Search API terms (your plan must allow AI use of the results)."
+          }
+        }
+      }
+    },
+    "Modele Gemma 4 udostępnia Google na licencji Apache 2.0. Pliki są pobierane z Hugging Face." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gemma 4 models are provided by Google under the Apache 2.0 license. Files are downloaded from Hugging Face."
+          }
+        }
+      }
+    },
+    "Moduł obrazów" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vision Module"
+          }
+        }
+      }
+    },
+    "Mów do mnie na „ty”, krótko i konkretnie. Kod pokazuj bez długich objaśnień." : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Talk to me casually, short and to the point. Show code without long explanations."
+          }
+        }
+      }
+    },
+    "Możesz też wybrać przykład i go poprawić. Limit %@ znaków (%@ użyte)." : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Możesz też wybrać przykład i go poprawić. Limit %1$@ znaków (%2$@ użyte)."
+          }
+        }
+      }
+    },
+    "Możesz też wybrać przykład i go poprawić. Limit %lld znaków (%lld użyte)." : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You can also pick an example and edit it. Limit: %1$lld characters (%2$lld used)."
+          }
+        }
+      }
+    },
+    "Myśli…" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thinking…"
+          }
+        }
+      }
+    },
+    "Na czas pisania odpowiedzi model zajmuje ok. %@ GB pamięci z %@ GB — telefon może wtedy zwalniać, a inne aplikacje mogą być zamykane." : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Na czas pisania odpowiedzi model zajmuje ok. %1$@ GB pamięci z %2$@ GB — telefon może wtedy zwalniać, a inne aplikacje mogą być zamykane."
+          }
+        }
+      }
+    },
+    "Na czas pisania odpowiedzi model zajmuje ok. %@ GB pamięci z %lld GB — telefon może wtedy zwalniać, a inne aplikacje mogą być zamykane." : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "While writing an answer the model uses about %1$@ GB of the phone's %2$lld GB — the phone may slow down and other apps may be closed."
+          }
+        }
+      }
+    },
+    "Najlepszy dla Twojego telefonu" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Best for Your Phone"
+          }
+        }
+      }
+    },
+    "Nauczyciel" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Teacher"
+          }
+        }
+      }
+    },
+    "Nazwa" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Name"
+          }
+        }
+      }
+    },
+    "Nie pobrano" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Not downloaded"
+          }
+        }
+      }
+    },
+    "Nie pytaj mnie w tej rozmowie" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Don't ask me again in this conversation"
+          }
+        }
+      }
+    },
+    "Nie udało się wczytać zdjęcia" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Couldn't load the photo"
+          }
+        }
+      }
+    },
+    "Nie załadowany" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Not loaded"
+          }
+        }
+      }
+    },
+    "Nie, odpowiedz bez internetu" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No, answer without the internet"
+          }
+        }
+      }
+    },
+    "Nowa rozmowa" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New Conversation"
+          }
+        }
+      }
+    },
+    "Nowe wspomnienie" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New Memory"
+          }
+        }
+      }
+    },
+    "O czym porozmawiamy?" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "What shall we talk about?"
+          }
+        }
+      }
+    },
+    "Odpowiadaj jak doświadczony mentor: szczerze, wskaż słabe punkty mojego pomysłu." : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Answer like an experienced mentor: be honest and point out the weak spots of my idea."
+          }
+        }
+      }
+    },
+    "Odpowiedź z internetu" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Answer from the internet"
+          }
+        }
+      }
+    },
+    "Odpowiedź z internetu · źródła: %lld" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Answer from the internet · sources: %lld"
+          }
+        }
+      }
+    },
+    "Odpowiedzi czyta syntezator mowy iOS, bez internetu. Kod i rozumowanie są pomijane. Lepsze głosy (★) można pobrać w ustawieniach iOS: Dostępność → Treść mówiona → Głosy." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Answers are read by the iOS speech synthesizer, offline. Code and reasoning are skipped. Better voices (★) can be downloaded in iOS Settings: Accessibility → Spoken Content → Voices."
+          }
+        }
+      }
+    },
+    "Odpowiedzi generuje model sztucznej inteligencji działający na tym telefonie. Mogą zawierać błędy — sprawdzaj ważne informacje." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Answers are generated by an AI model running on this phone. They may contain mistakes — check important information."
+          }
+        }
+      }
+    },
+    "Odpowiedzi z internetu oznaczymy 🌐 i podamy źródła." : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Answers from the internet are marked 🌐 and list their sources."
+          }
+        }
+      }
+    },
+    "OK" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        }
+      }
+    },
+    "Opis" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Description"
+          }
+        }
+      }
+    },
+    "Opisz własnymi słowami, jak model ma do Ciebie mówić." : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Describe in your own words how the model should talk to you."
+          }
+        }
+      }
+    },
+    "Ostatnio użyte" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Last Used"
+          }
+        }
+      }
+    },
+    "Pamięć" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Memory"
+          }
+        }
+      }
+    },
+    "Pamięć długotrwała" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Long-Term Memory"
+          }
+        }
+      }
+    },
+    "Pamięć i termika" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Memory & Thermals"
+          }
+        }
+      }
+    },
+    "Pamięć jest pusta" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Memory Is Empty"
+          }
+        }
+      }
+    },
+    "Pamięć rozmowy" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conversation Memory"
+          }
+        }
+      }
+    },
+    "Pauza wyśle wiadomość · „wyczyść” · „koniec dyktowania”" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A pause sends the message · “clear” · “stop dictation”"
+          }
+        }
+      }
+    },
+    "Pisze…" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Writing…"
+          }
+        }
+      }
+    },
+    "Pliki modeli Gemma 4 nie są częścią aplikacji: pobierasz je bezpośrednio z Hugging Face (wersje GGUF przygotowane przez Unsloth, licencja Apache 2.0)." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gemma 4 model files are not part of the app: you download them directly from Hugging Face (GGUF versions prepared by Unsloth, Apache 2.0 license)."
+          }
+        }
+      }
+    },
+    "Po %@ s ciszy" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "After %@ s of silence"
+          }
+        }
+      }
+    },
+    "Po zgodzie zapytanie trafi do %@, a aplikacja otworzy 2–3 strony z wyników. Te serwisy zobaczą adres IP telefonu." : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "After you agree, the query goes to %@ and the app opens 2–3 result pages. Those sites will see your phone's IP address."
+          }
+        }
+      }
+    },
+    "Pobieranie modułu obrazów…" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Downloading vision module…"
+          }
+        }
+      }
+    },
+    "Pobieranie przez sieć komórkową" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Download over Cellular"
+          }
+        }
+      }
+    },
+    "Pobierz %@" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Download %@"
+          }
+        }
+      }
+    },
+    "Pobierz mimo to" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Download Anyway"
+          }
+        }
+      }
+    },
+    "Pobierz moduł obrazów (%@)" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Download Vision Module (%@)"
+          }
+        }
+      }
+    },
+    "Pobierz moduł obrazów (+%@)" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Download Vision Module (+%@)"
+          }
+        }
+      }
+    },
+    "Pobranie" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Download"
+          }
+        }
+      }
+    },
+    "Pobrany" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Downloaded"
+          }
+        }
+      }
+    },
+    "Polski" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Polish"
+          }
+        }
+      }
+    },
+    "Posłuchaj próbki" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Play Sample"
+          }
+        }
+      }
+    },
+    "Powiedz „wyślij” · „wyczyść” · „koniec dyktowania”" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Say “send” · “clear” · “stop dictation”"
+          }
+        }
+      }
+    },
+    "Powiedz w czacie np. „Zapamiętaj, że mój pies ma na imię Burek” albo dodaj wspomnienie ręcznie." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Say in the chat e.g. “Remember that my dog is called Rex” or add a memory manually."
+          }
+        }
+      }
+    },
+    "Pozwala wysyłać zdjęcia. +%@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lets you send photos. +%@"
+          }
+        }
+      }
+    },
+    "Pozwól pobierać przez sieć komórkową" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Allow downloading over cellular"
+          }
+        }
+      }
+    },
+    "Prompt systemowy" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "System Prompt"
+          }
+        }
+      }
+    },
+    "Prywatny czat AI. Bez internetu." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Private AI chat. No internet."
+          }
+        }
+      }
+    },
+    "Przeładuj model" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reload Model"
+          }
+        }
+      }
+    },
+    "Przerwano odpowiedź: telefonowi zaczęło brakować pamięci. Zamknij inne aplikacje albo wybierz mniejszy model." : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Answer stopped: the phone was running out of memory. Close other apps or choose a smaller model."
+          }
+        }
+      }
+    },
+    "Przerwij" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stop"
+          }
+        }
+      }
+    },
+    "Przetwarzanie rozmowy…" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Processing conversation…"
+          }
+        }
+      }
+    },
+    "Przyjazny" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Friendly"
+          }
+        }
+      }
+    },
+    "Przywróć domyślny" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Restore Default"
+          }
+        }
+      }
+    },
+    "Przywróć zalecane (Gemma)" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Restore Recommended (Gemma)"
+          }
+        }
+      }
+    },
+    "Pytaj ponownie" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ask again"
+          }
+        }
+      }
+    },
+    "Rozmowa jest długa — %lld najstarszych wiadomości nie mieści się już w pamięci modelu. Możesz wydłużyć kontekst w Ustawieniach (Pamięć rozmowy) albo zacząć nową rozmowę." : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This conversation is long — the %lld oldest messages no longer fit in the model's memory. You can increase the context in Settings (Conversation memory) or start a new conversation."
+          }
+        }
+      }
+    },
+    "Rozmowy" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conversations"
+          }
+        }
+      }
+    },
+    "Rozmowy zostaną zachowane." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conversations are kept."
+          }
+        }
+      }
+    },
+    "Rozumiem, włącz wyszukiwanie" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I Understand, Turn On Search"
+          }
+        }
+      }
+    },
+    "Rozumowanie" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reasoning"
+          }
+        }
+      }
+    },
+    "Rzeczowy" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Professional"
+          }
+        }
+      }
+    },
+    "SecretChat działa offline. Jeśli się zgodzisz, tylko to zapytanie zostanie wysłane do wyszukiwarki (%@), a aplikacja otworzy 2–3 strony z wyników. Reszta rozmowy nie opuści telefonu." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SecretChat works offline. If you agree, only this query is sent to the search engine (%@), and the app opens 2–3 result pages. The rest of the conversation stays on your phone."
+          }
+        }
+      }
+    },
+    "SecretChat działa offline. Rozmowy i zdjęcia są przechowywane tylko na tym urządzeniu." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SecretChat works offline. Conversations and photos are stored only on this device."
+          }
+        }
+      }
+    },
+    "SecretChat jest zaprojektowany do pracy bez internetu" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SecretChat is designed to work without the internet"
+          }
+        }
+      }
+    },
+    "Skopiowano" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copied"
+          }
+        }
+      }
+    },
+    "Słucham…" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Listening…"
+          }
+        }
+      }
+    },
+    "Sprawdzanie sumy kontrolnej…" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verifying checksum…"
+          }
+        }
+      }
+    },
+    "Sprawdziłem pamięć." : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I checked my memory."
+          }
+        }
+      }
+    },
+    "Spróbuj ponownie" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Try Again"
+          }
+        }
+      }
+    },
+    "Stan termiczny" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thermal State"
+          }
+        }
+      }
+    },
+    "Status" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Status"
+          }
+        }
+      }
+    },
+    "Statystyki pod odpowiedzią" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stats Below Answers"
+          }
+        }
+      }
+    },
+    "Styl obowiązuje we wszystkich rozmowach, od następnej odpowiedzi. Nie musisz już za każdym razem pisać, jak model ma odpowiadać." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The style applies to all conversations from the next answer on. No need to tell the model how to answer every time."
+          }
+        }
+      }
+    },
+    "Styl odpowiedzi" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Response Style"
+          }
+        }
+      }
+    },
+    "Szczegółowy" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Detailed"
+          }
+        }
+      }
+    },
+    "Sztuczna inteligencja" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Artificial Intelligence"
+          }
+        }
+      }
+    },
+    "Szukaj…" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Search…"
+          }
+        }
+      }
+    },
+    "Szukam w internecie…" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Searching the internet…"
+          }
+        }
+      }
+    },
+    "Szybkość" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Speed"
+          }
+        }
+      }
+    },
+    "Ta rozmowa zawiera zdjęcia. Pobierz moduł obrazów (przycisk + albo Ustawienia → Model)." : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This conversation contains photos. Download the vision module (+ button or Settings → Model)."
+          }
+        }
+      }
+    },
+    "Tak, szukaj w internecie" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yes, Search the Internet"
+          }
+        }
+      }
+    },
+    "Telefon jest gorący — generowanie zwalnia." : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The phone is hot — generation is slowing down."
+          }
+        }
+      }
+    },
+    "Temperatura" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Temperature"
+          }
+        }
+      }
+    },
+    "Tempo czytania" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Speaking Rate"
+          }
+        }
+      }
+    },
+    "Ten model jest eksperymentalny na Twoim telefonie" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This model is experimental on your phone"
+          }
+        }
+      }
+    },
+    "Ten model może być za duży dla Twojego telefonu" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This model may be too large for your phone"
+          }
+        }
+      }
+    },
+    "Ten telefon ma mniej pamięci, niż potrzebuje nawet najmniejszy model. Czat może działać niestabilnie. Zalecany jest iPhone z co najmniej 6 GB RAM (np. iPhone 13 Pro, iPhone 14, iPhone 15)." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This phone has less memory than even the smallest model needs. Chat may be unstable. An iPhone with at least 6 GB of RAM is recommended (e.g. iPhone 13 Pro, iPhone 14, iPhone 15)."
+          }
+        }
+      }
+    },
+    "Test ciągły 10 min" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sustained Test 10 min"
+          }
+        }
+      }
+    },
+    "Test obrazu" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Image Test"
+          }
+        }
+      }
+    },
+    "Testy" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tests"
+          }
+        }
+      }
+    },
+    "Tłumacz wszystko tak, jakbym miał 12 lat, z prostymi przykładami." : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Explain everything as if I were 12, with simple examples."
+          }
+        }
+      }
+    },
+    "Top-k" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Top-k"
+          }
+        }
+      }
+    },
+    "Top-p" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Top-p"
+          }
+        }
+      }
+    },
+    "Treść" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Content"
+          }
+        }
+      }
+    },
+    "Treść rozmowy, zdjęcia i historia nie są wysyłane." : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your conversation, photos and history are not sent."
+          }
+        }
+      }
+    },
+    "Tryb głosowy" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voice Mode"
+          }
+        }
+      }
+    },
+    "Tryb głosowy wyłączony po dłuższej ciszy." : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voice mode turned off after a long silence."
+          }
+        }
+      }
+    },
+    "Tryb myślenia" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thinking Mode"
+          }
+        }
+      }
+    },
+    "Twój telefon może nie podołać temu modelowi" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your phone may not handle this model"
+          }
+        }
+      }
+    },
+    "Twój telefon: %@ · %@ GB RAM" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Twój telefon: %1$@ · %2$@ GB RAM"
+          }
+        }
+      }
+    },
+    "Twój telefon: %@ · %lld GB RAM" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your phone: %1$@ · %2$lld GB RAM"
+          }
+        }
+      }
+    },
+    "Twój telefon: %@ GB RAM" : {
+
+    },
+    "Twój telefon: %lld GB RAM" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your phone: %lld GB RAM"
+          }
+        }
+      }
+    },
+    "Tylko gdy włączysz wyszukiwanie i zatwierdzisz zapytanie: DuckDuckGo, Wikipedia (treści na licencji CC BY-SA — źródła są podawane przy odpowiedzi) albo Brave Search z Twoim własnym kluczem, na warunkach Brave Search API." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Only when you turn on search and approve a query: DuckDuckGo, Wikipedia (content licensed CC BY-SA — sources are listed with the answer) or Brave Search with your own key, under the Brave Search API terms."
+          }
+        }
+      }
+    },
+    "Tylko po słowie „wyślij”" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Only when I say “send”"
+          }
+        }
+      }
+    },
+    "Usługi internetowe" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Internet Services"
+          }
+        }
+      }
+    },
+    "Ustawienia" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Settings"
+          }
+        }
+      }
+    },
+    "Usuń" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete"
+          }
+        }
+      }
+    },
+    "Usuń pliki modelu" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete Model Files"
+          }
+        }
+      }
+    },
+    "Usuń wspomnienie" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete Memory"
+          }
+        }
+      }
+    },
+    "Usuń wszystkie" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete All"
+          }
+        }
+      }
+    },
+    "Usuń wszystkie wspomnienia" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete All Memories"
+          }
+        }
+      }
+    },
+    "Usuń zdjęcie" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Remove Photo"
+          }
+        }
+      }
+    },
+    "Usunąć %@?" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete %@?"
+          }
+        }
+      }
+    },
+    "Usunąć wszystkie wspomnienia (%lld)?" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete all memories (%lld)?"
+          }
+        }
+      }
+    },
+    "Utworzono" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Created"
+          }
+        }
+      }
+    },
+    "Użyto %@×" : {
+
+    },
+    "Użyto %lld×" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Used %lld×"
+          }
+        }
+      }
+    },
+    "Użyto pamięci: %@" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Used memory: %@"
+          }
+        }
+      }
+    },
+    "Używaj %@" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Use %@"
+          }
+        }
+      }
+    },
+    "Używany" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In Use"
+          }
+        }
+      }
+    },
+    "W pamięci" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In memory"
+          }
+        }
+      }
+    },
+    "W pełni offline" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fully Offline"
+          }
+        }
+      }
+    },
+    "W trakcie odpowiedzi %@ zajmuje ok. %@ GB z %@ GB pamięci telefonu — może zwalniać telefon i zamykać inne aplikacje. Komfortowo: %@." : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "W trakcie odpowiedzi %1$@ zajmuje ok. %2$@ GB z %3$@ GB pamięci telefonu — może zwalniać telefon i zamykać inne aplikacje. Komfortowo: %4$@."
+          }
+        }
+      }
+    },
+    "W trakcie odpowiedzi %@ zajmuje ok. %@ GB z %lld GB pamięci telefonu — może zwalniać telefon i zamykać inne aplikacje. Komfortowo: %@." : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "While answering, %1$@ uses about %2$@ GB of the phone's %3$lld GB — it may slow the phone down and close other apps. Comfortable on: %4$@."
+          }
+        }
+      }
+    },
+    "Wersja" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Version"
+          }
+        }
+      }
+    },
+    "Wiadomość" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Message"
+          }
+        }
+      }
+    },
+    "Włączam mikrofon…" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Turning on the microphone…"
+          }
+        }
+      }
+    },
+    "Własny" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Custom"
+          }
+        }
+      }
+    },
+    "Własny styl" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Custom style"
+          }
+        }
+      }
+    },
+    "Wspomnienia są zapisane tylko na tym telefonie. Model widzi w każdej nowej rozmowie listę nazw i opisów, a treść wczytuje tylko wtedy, gdy jest potrzebna." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Memories are stored only on this phone. In every new conversation the model sees the list of names and descriptions and loads content only when needed."
+          }
+        }
+      }
+    },
+    "Wspomnienie" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Memory"
+          }
+        }
+      }
+    },
+    "Wstrzymaj" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pause"
+          }
+        }
+      }
+    },
+    "Wstrzymano" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paused"
+          }
+        }
+      }
+    },
+    "Wybierz %@" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choose %@"
+          }
+        }
+      }
+    },
+    "Wyłącz tryb głosowy" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Turn Off Voice Mode"
+          }
+        }
+      }
+    },
+    "Wyłączone — aplikacja nie łączy się z internetem (poza pobieraniem modelu)." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Off — the app doesn't connect to the internet (except to download the model)."
+          }
+        }
+      }
+    },
+    "Wymaga" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requires"
+          }
+        }
+      }
+    },
+    "Wypełnij kontekst (80%)" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fill Context (80%)"
+          }
+        }
+      }
+    },
+    "Wyślij" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Send"
+          }
+        }
+      }
+    },
+    "Wyświetlanie" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Display"
+          }
+        }
+      }
+    },
+    "Wysyłanie w trybie głosowym" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sending in Voice Mode"
+          }
+        }
+      }
+    },
+    "Wyszukiwanie bez pytania w tej rozmowie" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Searching without asking in this conversation"
+          }
+        }
+      }
+    },
+    "Wyszukiwanie w internecie" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Internet Search"
+          }
+        }
+      }
+    },
+    "Wyszukiwanie w internecie włączone, tylko za zgodą" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Internet search on, only with your consent"
+          }
+        }
+      }
+    },
+    "Wyszukiwarka" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Search Engine"
+          }
+        }
+      }
+    },
+    "Wznów pobieranie" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resume Download"
+          }
+        }
+      }
+    },
+    "Z humorem" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Playful"
+          }
+        }
+      }
+    },
+    "Z żartem i luzem, ale z poprawnymi informacjami." : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Witty and relaxed, but with correct information."
+          }
+        }
+      }
+    },
+    "Za każdym razem zapytamy, czy na pewno — i pokażemy dokładne zapytanie." : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Every time, we'll ask if you're sure — and show the exact query."
+          }
+        }
+      }
+    },
+    "Zacznij nową rozmowę. Wszystko działa offline — nic nie opuszcza telefonu." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start a new conversation. Everything works offline — nothing leaves your phone."
+          }
+        }
+      }
+    },
+    "Zakończ" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "End"
+          }
+        }
+      }
+    },
+    "Zakończ dyktowanie" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stop Dictating"
+          }
+        }
+      }
+    },
+    "Zaktualizowałem wspomnienie „%@”." : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Updated the memory “%@”."
+          }
+        }
+      }
+    },
+    "Zaktualizowano w pamięci: %@" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Updated in memory: %@"
+          }
+        }
+      }
+    },
+    "Załaduj moduł obrazów" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Load Vision Module"
+          }
+        }
+      }
+    },
+    "Zalecane Wi-Fi. Pobieranie trwa dalej, gdy aplikacja jest w tle." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi recommended. The download continues while the app is in the background."
+          }
+        }
+      }
+    },
+    "Zalecany telefon: %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recommended phone: %@"
+          }
+        }
+      }
+    },
+    "Zamknij" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Close"
+          }
+        }
+      }
+    },
+    "Zapamiętałem: „%@”." : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Remembered: “%@”."
+          }
+        }
+      }
+    },
+    "Zapamiętano: %@" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Remembered: %@"
+          }
+        }
+      }
+    },
+    "Zapisane wspomnienia" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saved Memories"
+          }
+        }
+      }
+    },
+    "Zapisz" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save"
+          }
+        }
+      }
+    },
+    "Zapomniałem: „%@”." : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forgotten: “%@”."
+          }
+        }
+      }
+    },
+    "Zapomniano: %@" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forgotten: %@"
+          }
+        }
+      }
+    },
+    "Zapytanie »%@« trafi do %@, a odwiedzone strony zobaczą adres IP Twojego telefonu." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The query “%1$@” will be sent to %2$@, and the visited pages will see your phone's IP address."
+          }
+        }
+      }
+    },
+    "Zapytanie »%@« trafi do %@, a odwiedzone strony zobaczą adres IP Twojego telefonu. Kolejne wyszukiwania w tej rozmowie odbędą się bez pytania." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The query “%1$@” will be sent to %2$@, and the pages visited will see your phone's IP address. Further searches in this conversation will happen without asking."
+          }
+        }
+      }
+    },
+    "Zapytanie: »%@«" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Query: “%@”"
+          }
+        }
+      }
+    },
+    "Zatrzymaj" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stop"
+          }
+        }
+      }
+    },
+    "Zatrzymaj czytanie" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stop Reading"
+          }
+        }
+      }
+    },
+    "Zdjęcia" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Photos"
+          }
+        }
+      }
+    },
+    "Zdjęcie" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Photo"
+          }
+        }
+      }
+    },
+    "Zmień nazwę" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rename"
+          }
+        }
+      }
+    },
+    "Znaki towarowe" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trademarks"
+          }
+        }
+      }
+    },
+    "Zostaw wyłączone" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keep It Off"
+          }
+        }
+      }
+    },
+    "Zrób zdjęcie" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Take Photo"
+          }
+        }
+      }
+    },
+    "Zrównoważony" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Balanced"
+          }
+        }
+      }
+    },
+    "Zwięzły" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Concise"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

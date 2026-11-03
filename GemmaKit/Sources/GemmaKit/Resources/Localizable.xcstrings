@@ -1,0 +1,236 @@
+{
+  "sourceLanguage": "pl",
+  "strings": {
+    "%@ tymczasowo zablokował wyszukiwanie (zabezpieczenie przed botami).": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ temporarily blocked the search (bot protection)."
+          }
+        }
+      }
+    },
+    "Brak dostępu do mikrofonu. Włącz go w Ustawieniach iOS → SecretChat.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No microphone access. Turn it on in iOS Settings → SecretChat."
+          }
+        }
+      }
+    },
+    "Brak klucza API wyszukiwarki.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Missing search API key."
+          }
+        }
+      }
+    },
+    "Brak połączenia z internetem.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No internet connection."
+          }
+        }
+      }
+    },
+    "Brak wyników wyszukiwania.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No search results."
+          }
+        }
+      }
+    },
+    "Brak zgody na rozpoznawanie mowy. Włącz ją w Ustawieniach iOS → SecretChat.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Speech recognition is not allowed. Turn it on in iOS Settings → SecretChat."
+          }
+        }
+      }
+    },
+    "Błąd inferencji (kod %d).": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inference error (code %d)."
+          }
+        }
+      }
+    },
+    "Dyktowanie w tym języku (%@) nie jest dostępne offline na tym urządzeniu.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dictation in this language (%@) isn't available offline on this device."
+          }
+        }
+      }
+    },
+    "Mikrofon jest zajęty przez inną aplikację.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The microphone is in use by another app."
+          }
+        }
+      }
+    },
+    "Model nie jest załadowany.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The model is not loaded."
+          }
+        }
+      }
+    },
+    "Moduł obrazów nie jest załadowany.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The vision module is not loaded."
+          }
+        }
+      }
+    },
+    "Nie udało się odczytać obrazu.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Could not read the image."
+          }
+        }
+      }
+    },
+    "Nie udało się przetworzyć obrazu (kod %d).": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Could not process the image (code %d)."
+          }
+        }
+      }
+    },
+    "Nie udało się przetworzyć tekstu.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Could not process the text."
+          }
+        }
+      }
+    },
+    "Nie udało się utworzyć kontekstu (za mało pamięci?).": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Could not create the context (not enough memory?)."
+          }
+        }
+      }
+    },
+    "Nie udało się załadować modelu.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Could not load the model."
+          }
+        }
+      }
+    },
+    "Nie udało się załadować modułu obrazów.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Could not load the vision module."
+          }
+        }
+      }
+    },
+    "Nieprawidłowy rozmiar pliku (%lld zamiast %lld B).": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wrong file size (%1$lld instead of %2$lld B)."
+          }
+        }
+      }
+    },
+    "Serwer zwrócił błąd HTTP %lld.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The server returned HTTP error %lld."
+          }
+        }
+      }
+    },
+    "Suma kontrolna się nie zgadza — plik uszkodzony.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Checksum mismatch — the file is corrupted."
+          }
+        }
+      }
+    },
+    "Wiadomość jest za długa: potrzeba %lld tokenów, kontekst mieści %lld.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The message is too long: it needs %1$lld tokens, the context holds %2$lld."
+          }
+        }
+      }
+    },
+    "Wyszukiwarka zwróciła błąd HTTP %lld.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The search engine returned HTTP error %lld."
+          }
+        }
+      }
+    },
+    "iPhone z 16 GB RAM": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "an iPhone with 16 GB RAM"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

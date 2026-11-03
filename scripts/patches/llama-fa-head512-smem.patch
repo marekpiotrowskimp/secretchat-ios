@@ -1,0 +1,18 @@
+diff --git a/ggml/src/ggml-metal/ggml-metal-ops.cpp b/ggml/src/ggml-metal/ggml-metal-ops.cpp
+index 0ecd1a5..d1e0369 100644
+--- a/ggml/src/ggml-metal/ggml-metal-ops.cpp
++++ b/ggml/src/ggml-metal/ggml-metal-ops.cpp
+@@ -2965,7 +2965,12 @@ static bool ggml_metal_op_flash_attn_ext_use_kv_f16(const ggml_tensor * op) {
+     // ref: https://github.com/ggml-org/llama.cpp/pull/27390#issuecomment-5355152767
+     // TODO: tune per device
+     if (op->src[0]->ne[1] < 32) {
+-        return false;
++        // The non-vec kernel on a quantized KV cache needs 16*32*NSG extra halfs of threadgroup memory.
++        // With 512-wide heads (NSG = 8, e.g. Gemma 4 global layers) that is 36864 B > the 32 KB Apple GPU
++        // limit, so batches of 20..31 tokens (too big for the vec kernel) dequantize to F16 as well.
++        if (ggml_metal_op_flash_attn_ext_use_vec(op) || op->src[0]->ne[0] < 512) {
++            return false;
++        }
+     }
+ 
+     switch (op->src[1]->type) {

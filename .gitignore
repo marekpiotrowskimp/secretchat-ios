@@ -1,0 +1,16 @@
+.models/
+Vendor/
+build/
+DerivedData/
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+.DS_Store
+.build/
+.swiftpm/
+GemmaKit/Frameworks/
+**/xcuserdata/
+
+# sekrety / system
+.env
+secrets.h
+secrets.py

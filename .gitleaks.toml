@@ -1,0 +1,7 @@
+# Publiczny klucz hCaptcha (site key) w zapisanej stronie Wikipedii używanej jako fixture testowy — nie jest sekretem.
+[extend]
+useDefault = true
+
+[[allowlists]]
+description = "Saved Wikipedia page used as a test fixture"
+paths = ['''GemmaKit/Tests/GemmaKitTests/Fixtures/page_wikipedia\.html$''']

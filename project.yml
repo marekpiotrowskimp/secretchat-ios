@@ -1,0 +1,102 @@
+name: SecretChat
+options:
+  bundleIdPrefix: com.marekpiotrowski
+  deploymentTarget:
+    iOS: "26.0"
+  developmentLanguage: pl
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    DEVELOPMENT_TEAM: JMMW48F6X4
+    CODE_SIGN_STYLE: Automatic
+packages:
+  GemmaKit:
+    path: GemmaKit
+  SwiftMath:
+    url: https://github.com/mgriebling/SwiftMath
+    exactVersion: 1.7.3
+targets:
+  SecretChat:
+    type: application
+    platform: iOS
+    supportedDestinations: [iOS]
+    sources:
+      - path: SecretChat
+    dependencies:
+      - package: GemmaKit
+      - package: SwiftMath
+    entitlements:
+      path: SecretChat/SecretChat.entitlements
+      properties:
+        com.apple.developer.kernel.increased-memory-limit: true
+    info:
+      path: SecretChat/Info.plist
+      properties:
+        CFBundleDisplayName: SecretChat
+        # Night background + logo (same colour as Theme.background) — not a white flash before SwiftUI starts.
+        UILaunchScreen:
+          UIColorName: LaunchBackground
+          UIImageName: LaunchLogo
+          UIImageRespectsSafeAreaInsets: true
+        UIFileSharingEnabled: true
+        LSSupportsOpeningDocumentsInPlace: true
+        UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait]
+        CFBundleLocalizations: [pl, en]
+        UIBackgroundModes: [audio]
+        NSMicrophoneUsageDescription: "Mikrofon służy do dyktowania wiadomości. Mowa jest rozpoznawana na telefonie i nie jest nigdzie wysyłana."
+        NSCameraUsageDescription: "Aparat służy do robienia zdjęć, które wysyłasz do modelu. Zdjęcia nie opuszczają telefonu."
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.marekpiotrowski.SecretChat
+        TARGETED_DEVICE_FAMILY: "1"
+        MARKETING_VERSION: "0.1.0"
+        CURRENT_PROJECT_VERSION: "1"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        SWIFT_STRICT_CONCURRENCY: complete
+        SWIFT_DEFAULT_ACTOR_ISOLATION: MainActor
+        STRING_CATALOG_GENERATE_SYMBOLS: YES
+        # Catalogs are written by scripts/gen_strings.py (which turns extraction on for its own build);
+        # left on, every build re-synced them in Xcode's format with stale keys.
+        SWIFT_EMIT_LOC_STRINGS: NO
+  SecretChatTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: SecretChatTests
+        excludes: [Resources/**]
+      - path: SecretChatTests/Resources
+        type: folder
+        buildPhase: resources
+    dependencies:
+      - target: SecretChat
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+        PRODUCT_BUNDLE_IDENTIFIER: com.marekpiotrowski.SecretChatTests
+        SWIFT_DEFAULT_ACTOR_ISOLATION: MainActor
+  SecretChatUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources: [SecretChatUITests]
+    dependencies:
+      - target: SecretChat
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+        PRODUCT_BUNDLE_IDENTIFIER: com.marekpiotrowski.SecretChatUITests
+schemes:
+  SecretChat:
+    build:
+      targets:
+        SecretChat: all
+    run:
+      config: Debug
+    test:
+      config: Debug
+      targets: [SecretChatTests, SecretChatUITests]
+      environmentVariables:
+        GEMMA_MODEL_DIR: $(SRCROOT)/build/test-models
+    archive:
+      config: Release
