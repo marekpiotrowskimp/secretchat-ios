@@ -1,74 +1,78 @@
 # SecretChat
 
-Czat z **Gemma 4 12B** działający w całości na iPhonie (iPhone 17 Pro Max, iOS 26). Bez serwera, bez internetu — poza jednorazowym pobraniem modelu.
+A chat app running **Gemma 4 12B** entirely on an iPhone (iPhone 17 Pro Max, iOS 26). No server and no internet connection — apart from a one-time model download.
 
-- Model: `gemma-4-12B-it-qat-UD-Q4_K_XL.gguf` (Gemma 4 12B-it, QAT 4-bit, 6,7 GB) + `mmproj-F16.gguf` (obrazy, 0,18 GB)
-- Silnik: [llama.cpp](https://github.com/ggml-org/llama.cpp) `b11345` (Metal, mmap, mtmd dla obrazów)
-- UI: SwiftUI + SwiftData, lokalizacja PL/EN
+- Model: `gemma-4-12B-it-qat-UD-Q4_K_XL.gguf` (Gemma 4 12B-it, QAT 4-bit, 6.7 GB) + `mmproj-F16.gguf` (vision, 0.18 GB)
+- Engine: [llama.cpp](https://github.com/ggml-org/llama.cpp) `b11345` (Metal, mmap, mtmd for images)
+- UI: SwiftUI + SwiftData, Polish and English localization
 
-Szczegóły decyzji, pomiary i dziennik: [PLAN.md](PLAN.md).
+Design decisions, measurements and the development log (in Polish): [PLAN.md](PLAN.md).
 
-## Funkcje
+## Features
 
-- Streaming odpowiedzi token po tokenie, przycisk Stop (częściowa odpowiedź zostaje zapisana)
-- Historia wielu rozmów (SwiftData), auto-tytuły, zmiana nazwy, usuwanie
-- Markdown: nagłówki, listy, tabele, cytaty, bloki kodu z kopiowaniem
-- Zdjęcia z biblioteki lub aparatu (Gemma 4 vision)
-- Tryb myślenia z rozwijanym blokiem „Rozumowanie”
-- Ustawienia: prompt systemowy, temperatura / top-p / top-k / długość odpowiedzi, kontekst 4K/8K/16K, statystyki (tok/s, RAM)
-- Pobieranie modelu w tle z wznawianiem i weryfikacją SHA-256
-- Ekran diagnostyki: benchmark, wypełnienie kontekstu, test obrazu, 10-minutowy test termiczny
+- Token-by-token streaming with a Stop button (the partial answer is kept)
+- Multiple conversations (SwiftData) with automatic titles, renaming and deletion
+- Markdown rendering: headings, lists, tables, quotes, code blocks with a copy button
+- Photos from the library or camera (Gemma 4 vision)
+- Thinking mode with a collapsible "Reasoning" block
+- Settings: system prompt, temperature / top-p / top-k / answer length, 4K/8K/16K context, live stats (tokens/s, RAM)
+- Background model download with resume and SHA-256 verification
+- Diagnostics screen: benchmark, context fill, image test, 10-minute thermal test
 
-## Wymagania
+## Requirements
 
-- Mac z Apple Silicon, Xcode 26.2+, [XcodeGen](https://github.com/yonaskolb/XcodeGen) (`brew install xcodegen`), CMake (`brew install cmake`)
-- iPhone 17 Pro Max (12 GB RAM) z iOS 26 i włączonym trybem deweloperskim
-- Konto Apple Developer (uprawnienie `increased-memory-limit`)
+- Apple Silicon Mac, Xcode 26.2+, [XcodeGen](https://github.com/yonaskolb/XcodeGen) (`brew install xcodegen`), CMake (`brew install cmake`)
+- iPhone 17 Pro Max (12 GB RAM) running iOS 26 with Developer Mode enabled
+- Apple Developer account (the `increased-memory-limit` entitlement is required)
 
-## Pierwsze uruchomienie
+## Getting started
 
 ```sh
-scripts/bootstrap.sh --model     # buduje llama.xcframework (~10 min) i pobiera model (~6,9 GB) do .models/
-xcodegen generate                # tworzy SecretChat.xcodeproj
-open SecretChat.xcodeproj         # albo z terminala ↓
+scripts/bootstrap.sh --model     # builds llama.xcframework (~10 min) and downloads the model (~6.9 GB) into .models/
+xcodegen generate                # generates SecretChat.xcodeproj
+open SecretChat.xcodeproj        # or use the terminal commands below
 ```
 
-Na telefon (podłączony kablem):
+On a device connected by cable:
 
 ```sh
-scripts/device.sh install        # build Debug + instalacja
-scripts/device.sh push-model     # opcjonalnie: wgranie modelu po kablu zamiast pobierania w aplikacji
+scripts/device.sh install        # Debug build + install
+scripts/device.sh push-model     # optional: copy the model over the cable instead of downloading it in the app
 scripts/device.sh launch
-scripts/device.sh pull-log       # wyniki z ekranu Diagnostyka (Documents/diagnostics.log)
+scripts/device.sh pull-log       # results from the Diagnostics screen (Documents/diagnostics.log)
 ```
 
-Model można też wrzucić przez aplikację Pliki / Finder do folderu SecretChat — aplikacja przeniesie go i zweryfikuje przy starcie.
+You can also drop the model into the SecretChat folder using the Files app or Finder — the app moves and verifies it on launch.
 
-## Testy
+## Tests
 
 ```sh
-cd GemmaKit && swift test                      # silnik + logika na macOS (testy integracyjne używają .models/)
+cd GemmaKit && swift test                      # engine + logic on macOS (integration tests use .models/)
 
-scripts/prepare_test_models.sh                 # linki do modelu dla symulatora
+scripts/prepare_test_models.sh                 # model links for the simulator
 xcodebuild test -project SecretChat.xcodeproj -scheme SecretChat \
-  -destination 'platform=iOS Simulator,name=iPhone 17 Pro Max'   # testy aplikacji + UI (symulator liczy na CPU — wolno)
+  -destination 'platform=iOS Simulator,name=iPhone 17 Pro Max'   # app + UI tests (the simulator runs on CPU — slow)
 
 xcodebuild -project SecretChat.xcodeproj -scheme SecretChat -destination generic/platform=iOS \
-  SWIFT_EMIT_LOC_STRINGS=YES build && scripts/gen_strings.py      # odświeżenie tłumaczeń (błąd = brak tłumaczenia)
+  SWIFT_EMIT_LOC_STRINGS=YES build && scripts/gen_strings.py      # refresh translations (fails on a missing translation)
 ```
 
-## Struktura
+## Project structure
 
 ```
-GemmaKit/            Swift Package: LlamaEngine, prompt Gemma 4, przycinanie kontekstu, parser
-                     wyjścia/Markdown, ModelStore (pobieranie), diagnostyka — testowany na macOS
-SecretChat/           aplikacja iOS (SwiftUI): czat, lista rozmów, ustawienia, onboarding, diagnostyka
-SecretChatTests/      testy aplikacji (SwiftData, ustawienia, ChatViewModel z prawdziwym modelem)
-SecretChatUITests/    testy UI (XCUITest) — pełny przepływ czatu PL + lokalizacja EN
-scripts/             bootstrap, device, test-models, generowanie fixtures/tłumaczeń/ikony
+GemmaKit/            Swift package: LlamaEngine, Gemma 4 prompt format, context trimming, output/Markdown
+                     parser, ModelStore (downloads), diagnostics — tested on macOS
+SecretChat/          iOS app (SwiftUI): chat, conversation list, settings, onboarding, diagnostics
+SecretChatTests/     app tests (SwiftData, settings, ChatViewModel against the real model)
+SecretChatUITests/   UI tests (XCUITest) — full chat flow in Polish + English localization
+scripts/             bootstrap, device, test models, fixture/translation/icon generation
 ```
 
 ## TestFlight
 
-`xcodebuild archive` przechodzi (Release). Do wysyłki potrzebny jest rekord aplikacji w App Store Connect
-(bundle ID `com.marekpiotrowski.SecretChat`), potem: Xcode → Organizer → Distribute App → TestFlight.
+`xcodebuild archive` succeeds (Release). Uploading requires an app record in App Store Connect
+(bundle ID `com.marekpiotrowski.SecretChat`), then: Xcode → Organizer → Distribute App → TestFlight.
+
+## License
+
+Code: MIT — see [LICENSE](LICENSE). Model weights are not part of this repository; Gemma is distributed under the [Gemma Terms of Use](https://ai.google.dev/gemma/terms). llama.cpp is MIT-licensed.
